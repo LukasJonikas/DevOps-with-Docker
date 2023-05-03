@@ -1,7 +1,0 @@
-FROM ubuntu:20.04
-
-WORKDIR /usr/src/app
-
-COPY thescript.sh . 
-RUN apt-get update; run apt-get install curl -y;
-CMD ./thescript.sh
