@@ -16,5 +16,13 @@ docker images output:
 
 ![image](https://user-images.githubusercontent.com/132380151/235959123-1c21ffc0-e41d-47ec-adb6-465779d13711.png)
 
+EXERCISE 1.3: SECRET MESSAGE
+
+Secret message: 'You can find the source code here: https://github.com/docker-hy'
+Commands used:
+docker run -d -it devopsdockeruh/simple-web-service:ubuntu
+docker exec -it quirky_franklin bash
+tail -f text.log
+
 
 
