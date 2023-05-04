@@ -70,6 +70,7 @@ EXERCISE 1.8: TWO LINE DOCKERFILE
 Dockerfile:
 
 FROM devopsdockeruh/simple-web-service:alpine
+
 CMD server
 
 Commands:
