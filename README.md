@@ -53,6 +53,7 @@ https://hub.docker.com/r/devopsdockeruh/pull_exercise
 ![image](https://user-images.githubusercontent.com/132380151/236250912-a597082d-ca92-4558-82ef-17fed44bdeda.png)
 
 
+EXERCISE 1.7: IMAGE FOR SCRIPT
 
 
 
