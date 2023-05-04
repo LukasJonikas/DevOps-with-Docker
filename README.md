@@ -40,6 +40,13 @@ docker attach Dependencies
 
 helsinki.fi
 
+EXERCISE 1.5: SIZES OF IMAGES
+
+![image](https://user-images.githubusercontent.com/132380151/236217234-8efdc029-5207-4c75-b20f-1ea7bea6e745.png)
+
+![image](https://user-images.githubusercontent.com/132380151/236220386-b775ae37-8d39-4574-98c0-2fb46d5f9eaa.png)
+
+
 
 
 
