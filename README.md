@@ -46,6 +46,13 @@ EXERCISE 1.5: SIZES OF IMAGES
 
 ![image](https://user-images.githubusercontent.com/132380151/236220386-b775ae37-8d39-4574-98c0-2fb46d5f9eaa.png)
 
+EXERCISE 1.6: HELLO DOCKER HUB
+
+https://hub.docker.com/r/devopsdockeruh/pull_exercise
+
+![image](https://user-images.githubusercontent.com/132380151/236250912-a597082d-ca92-4558-82ef-17fed44bdeda.png)
+
+
 
 
 
