@@ -77,4 +77,10 @@ Commands:
 
 docker run webserver
 
+EXERCISE 1.9: VOLUMES
+
+cat text.log
+
+
+
 
