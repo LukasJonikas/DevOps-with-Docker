@@ -56,11 +56,24 @@ https://hub.docker.com/r/devopsdockeruh/pull_exercise
 EXERCISE 1.7: IMAGE FOR SCRIPT
 
 FROM ubuntu:20.04
+
 WORKDIR /usr/src/app
+
 RUN apt-get update; apt-get install curl -y;
+
 COPY thescript.sh .
+
 CMD ./thescript.sh
 
+EXERCISE 1.8: TWO LINE DOCKERFILE
 
+Dockerfile:
+
+FROM devopsdockeruh/simple-web-service:alpine
+CMD server
+
+Commands:
+
+docker run webserver
 
 
