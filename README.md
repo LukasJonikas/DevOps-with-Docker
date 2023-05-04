@@ -81,6 +81,13 @@ EXERCISE 1.9: VOLUMES
 
 cat text.log
 
+EXERCISE 1.10: PORTS OPEN
+
+docker run -d -it -p 8080:8080 devopsdockeruh/simple-web-service server
+
+curl http://localhost:8080
+
+
 
 
 
