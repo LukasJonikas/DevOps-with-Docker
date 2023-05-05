@@ -87,6 +87,18 @@ docker run -d -it -p 8080:8080 devopsdockeruh/simple-web-service server
 
 curl http://localhost:8080
 
+EXERCISE 1.11: SPRING
+
+FROM openjdk:8
+
+WORKDIR usr/src/app
+
+COPY ..
+
+RUN ./mvnw package
+
+CMD ["java", "-jar", "./target/docker-example-1.1.3.jar"]
+
 
 
 
