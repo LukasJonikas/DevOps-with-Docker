@@ -1,0 +1,3 @@
+Commands:
+
+cat text.log
