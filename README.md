@@ -127,6 +127,24 @@ RUN npm install -g serve
 
 CMD ["serve", "-n", "-s", "-l", "5000", "build"]
 
+MANDATORY EXERCISE 1.13: HELLO, BACKEND!
+
+FROM golang:1.16
+
+WORKDIR /usr/src/app
+
+COPY . .
+
+EXPOSE 8080
+
+ENV REQUEST_ORIGIN=http://localhost:8080
+
+RUN go build
+
+RUN go test ./...
+
+CMD ["./server"]
+
 
 
 
